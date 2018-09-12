@@ -31,10 +31,10 @@ cor(x4, y4)
 ## Plotting all 4 pairs
 
 All 4 pairs have same correlations. However, every pair has different plotting shape.
-It means we cannot solely depend on Correlations.
+It means we cannot solely depend on Correlations. Plot 1 is the closest to the linear relationship. Plot 2 is curved. Plot 3 has one outlier. Plot 4 shows that one outlier makes the correlation exist. If there was no outlier in Plot 4, there is no correlations between x4 and y4.
 
 
-```{r pressure, echo=TRUE}
+```{r anscombe, echo=TRUE}
 par(mfrow = c(2,2)) # Drawing 2x2 Gridlines
 plot(x1, y1, main = "Plot 1")
 plot(x2, y2, main = "Plot 2")
@@ -42,3 +42,10 @@ plot(x3, y3, main = "Plot 3")
 plot(x4, y4, main = "Plot 4")
 ```
 
+```{r anscombe2, echo=FALSE}
+par(mfrow = c(2,2)) # Drawing 2x2 Gridlines
+plot(x1, y1, main = "Plot 1")
+plot(x2, y2, main = "Plot 2")
+plot(x3, y3, main = "Plot 3")
+plot(x4, y4, main = "Plot 4")
+```
