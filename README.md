@@ -1,15 +1,7 @@
 # MachineLearningInR
 Reference: "Mastering Machine Learning with R", Cory Lesmeister
----
-title: "Anscombe Data"
-output: github_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Purpose of this analysis
+## Anscombe Dataset
 
 We are going to look into Anscombe Dataset. This was made by Francis Anscombe to emphasize the importance of Outliers.
 
